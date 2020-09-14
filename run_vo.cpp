@@ -278,7 +278,6 @@ bool drawResultByPcl(basics::Yaml config_dataset,
 
   vector<cv::Point3f> vec_pos;
   vector<vector<unsigned char>> vec_color;
-  unsigned char r, g, b;
   vector<unsigned char> color(3, 0);
 
   if (1)
