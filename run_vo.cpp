@@ -87,7 +87,7 @@ int main(int argc, char **argv)
         const string dataset_dir = config_dataset.get<string>("dataset_dir");
         const int num_images = config_dataset.get<int>("num_images");
         constexpr bool is_print_res = false;
-        const string image_formatting = "/rgb_%05d.png";
+        const string image_formatting = "/tsukuba_daylight_L_%05d.png";
         image_paths = vo::readImagePaths(dataset_dir, num_images, image_formatting, is_print_res);
     }
 

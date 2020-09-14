@@ -19,7 +19,7 @@ vector<string> readImagePaths(
     // Set up image_paths
     vector<string> image_paths;
     boost::format filename_fmt(dataset_dir + image_formatting);
-    for (int i = 0; i < num_images; i++)
+    for (int i = 1; i < num_images; i++)
     {
         image_paths.push_back((filename_fmt % i).str());
     }
