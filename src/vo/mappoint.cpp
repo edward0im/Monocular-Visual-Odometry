@@ -15,12 +15,12 @@ MapPoint::MapPoint(
                                                          good_(true), visible_times_(1), matched_times_(1)
 
 {
-    id_ = factory_id_++;
+  id_ = factory_id_++;
 }
 
 void MapPoint::setPos(const cv::Point3f &pos)
 {
-    pos_ = pos;
+  pos_ = pos;
 }
 
 } // namespace vo

@@ -33,7 +33,7 @@ namespace vo
 class VisualOdometry
 {
 
-public:
+ public:
   typedef std::shared_ptr<VisualOdometry> Ptr;
   VisualOdometry();
 
@@ -43,7 +43,7 @@ public:
   Frame::Ptr getPrevRef() { return prev_ref_; } // for run_vo.cpp to draw result
   Map::Ptr getMap() { return map_; }            // for run_vo.cpp to draw result
 
-private:
+ private:
   enum VOState
   {
     BLANK,
@@ -53,7 +53,7 @@ private:
   };
   VOState vo_state_;
 
-private:
+ private:
   // Frame
   Frame::Ptr curr_ = nullptr;         // current frame
   Frame::Ptr prev_ = nullptr;         // previous frame
@@ -76,7 +76,7 @@ private:
   // Parameters
   const int kBuffSize_ = 20; // How much prev frames to store.
 
-private: // functions
+ private: // functions
   // Push a frame to the buff.
   void pushFrameToBuff_(Frame::Ptr frame)
   {
@@ -95,12 +95,12 @@ private: // functions
   // Change "pts3d_in_curr", return a new "inlier_matches".
   void retainGoodTriangulationResult_();
 
-public: // ------------------------------- Tracking -------------------------------
+ public: // ------------------------------- Tracking -------------------------------
   bool checkLargeMoveForAddKeyFrame_(Frame::Ptr curr, Frame::Ptr ref);
   void optimizeMap_();
   bool poseEstimationPnP_();
 
-public: // ------------------------------- Mapping -------------------------------
+ public: // ------------------------------- Mapping -------------------------------
   void addKeyFrame_(Frame::Ptr keyframe);
   void pushCurrPointsToMap_();
   void getMappointsInCurrentView_(
@@ -109,7 +109,7 @@ public: // ------------------------------- Mapping -----------------------------
       cv::Mat &corresponding_mappoints_descriptors);
   double getViewAngle_(Frame::Ptr frame, MapPoint::Ptr point);
 
-public: // ------------------------------- BundleAdjustment -------------------------------
+ public: // ------------------------------- BundleAdjustment -------------------------------
   void callBundleAdjustment_();
 };
 

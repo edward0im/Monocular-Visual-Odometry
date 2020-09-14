@@ -13,17 +13,17 @@ namespace vo
 
 class Map
 {
-public:
-    typedef std::shared_ptr<Map> Ptr;
-    std::unordered_map<int, Frame::Ptr> keyframes_;
-    std::unordered_map<int, MapPoint::Ptr> map_points_;
+ public:
+  typedef std::shared_ptr<Map> Ptr;
+  std::unordered_map<int, Frame::Ptr> keyframes_;
+  std::unordered_map<int, MapPoint::Ptr> map_points_;
 
-    Map() {}
+  Map() {}
 
-    void insertKeyFrame(Frame::Ptr frame);
-    void insertMapPoint(MapPoint::Ptr map_point);
-    Frame::Ptr findKeyFrame(int frame_id);
-    bool hasKeyFrame(int frame_id);
+  void insertKeyFrame(Frame::Ptr frame);
+  void insertMapPoint(MapPoint::Ptr map_point);
+  Frame::Ptr findKeyFrame(int frame_id);
+  bool hasKeyFrame(int frame_id);
 };
 
 } // namespace vo

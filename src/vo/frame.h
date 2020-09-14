@@ -21,11 +21,11 @@ typedef struct PtConn_
 
 class Frame
 {
-public:
+ public:
   typedef std::shared_ptr<Frame> Ptr;
   static int factory_id_;
 
-public:
+ public:
   int id_;            // id of this frame
   double time_stamp_; // when it is recorded
 
@@ -55,12 +55,12 @@ public:
   // -- Current pose
   cv::Mat T_w_c_; // transform from world to camera
 
-public:
+ public:
   Frame() {}
   ~Frame() {}
   static Frame::Ptr createFrame(cv::Mat rgb_img, geometry::Camera::Ptr camera, double time_stamp = -1);
 
-public: // Below are deprecated. These were used in the two-frame-matching vo.
+ public: // Below are deprecated. These were used in the two-frame-matching vo.
   void clearNoUsed()
   {
     // rgb_img_.release();

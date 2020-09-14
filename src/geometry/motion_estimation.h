@@ -78,7 +78,7 @@ vector<cv::DMatch> helperFindInlierMatchesByEpipolarCons(
     const vector<cv::KeyPoint> &keypoints_2,
     const vector<cv::DMatch> &matches,
     const cv::Mat &K // camera intrinsics
-);
+                                                         );
 
 /* @brief Triangulate points.
  * @param: prev_kpts

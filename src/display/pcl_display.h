@@ -22,7 +22,7 @@ namespace display
 class PclViewer
 {
 
-public:
+ public:
   typedef std::shared_ptr<PclViewer> Ptr;
 
   string viewer_name_;
@@ -35,13 +35,13 @@ public:
   cv::Mat truth_cam_R_vec_;
   cv::Mat truth_cam_t_;
 
-public:
+ public:
   // Constructor
   PclViewer(
       double x = 1.0, double y = -1.0, double z = -1.0,
       double rot_axis_x = -0.5, double rot_axis_y = 0, double rot_axis_z = 0);
 
-public:
+ public:
   void updateMapPoints(const vector<cv::Point3f> &vec_pos, const vector<vector<unsigned char>> &vec_color);
   void updateCurrPoints(const vector<cv::Point3f> &vec_pos, const vector<vector<unsigned char>> &vec_color);
   void updatePointsInView(const vector<cv::Point3f> &vec_pos, const vector<vector<unsigned char>> &vec_color);

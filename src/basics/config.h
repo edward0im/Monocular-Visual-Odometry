@@ -15,7 +15,7 @@ namespace basics
 class Config
 {
 
-public:
+ public:
 
   // Set a new config file
   static void setParameterFile(const std::string &filename);
@@ -34,7 +34,7 @@ public:
 
   ~Config(); // Close the file when deconstructing
 
-private:
+ private:
   static std::shared_ptr<Config> config_;
   cv::FileStorage file_;
 

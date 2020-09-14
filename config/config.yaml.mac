@@ -12,7 +12,7 @@ matlab: # New Tsukuba Stereo dataset used in matlab tutorial
 
   # -- Data dir
   # dataset_dir: /home/feiyu/Documents/Projects/2018-winter/EECS432_CV_VO/data/dataset_images_matlab
-  dataset_dir: /home/edward/dataset/NewTsukubaStereoDataset/illumination/daylight/left
+  dataset_dir: /Users/edward/dataset/NewTsukubaStereoDataset/illumination/daylight/left
   num_images: 1800
 
   # -- Camera intrinsics (The images should all be undistorted)
@@ -24,7 +24,7 @@ matlab: # New Tsukuba Stereo dataset used in matlab tutorial
   # -- Load groundtruth trajectory
   is_draw_true_traj: "false" # Ground truth traj's color is set as green. Estimated is set as white.
   # true_traj_filename: /home/feiyu/Documents/Projects/2018-winter/EECS432_CV_VO/data/test_data/cam_traj_truth.txt
-  true_traj_filename: /home/edward/dataset/NewTsukubaStereoDataset/groundtruth/camera_track.txt
+  true_traj_filename: /Users/edward/dataset/NewTsukubaStereoDataset/groundtruth/camera_track.txt
   # Format of ground-truth data:
   # In each row, there are 12 numbers representing the transformation matrix T=[R|t].
   # Order of the 12 numbers: tx, ty, tz, R[:,0], R[:,1], R[:,2]
@@ -55,7 +55,7 @@ max_num_imgs_to_proc: 1800 # default: 300
 # is_pcl_wait_for_keypress: "true" # If true, PCL Viewer will stop after each update, and wait for your keypress.
 is_pcl_wait_for_keypress: "false" 
 cv_waitkey_time: 1
-save_predicted_traj_to: /home/edward/Downloads/monovo_cam_traj_estimated.txt
+save_predicted_traj_to: /Users/edward/Downloads/monovo_cam_traj_estimated.txt
 output_folder: "output"
 
 # ==============================================================

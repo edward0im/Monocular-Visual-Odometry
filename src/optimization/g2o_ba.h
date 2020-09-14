@@ -1,6 +1,6 @@
 
 /* This script is mainly copied and then modified from Chapter 7 of Dr. Xiang Gao's book. Link is here:
-https://github.com/gaoxiang12/slambook/blob/master/ch7/pose_estimation_3d2d.cpp
+   https://github.com/gaoxiang12/slambook/blob/master/ch7/pose_estimation_3d2d.cpp
 */
 
 #ifndef MY_SLAM_G2O_BA_H

@@ -24,7 +24,7 @@ void estiMotionByEssential(
     cv::Mat &essential_matrix,
     cv::Mat &R, cv::Mat &t,    // R_curr_to_prev, t_curr_to_prev
     vector<int> &inliers_index // the inliers used in estimating Essential
-);
+                           );
 
 /* @brief Estimate camera motion by using Homography matrix.
  *      There might be 1 or 2 possible Homography matrices. Return them all. 
@@ -36,7 +36,7 @@ void estiMotionByHomography(
     vector<cv::Mat> &Rs, vector<cv::Mat> &ts, // R_curr_to_prev, t_curr_to_prev
     vector<cv::Mat> &normals,                 // Homography plane's normal
     vector<int> &inliers_index                // The inliers used for estimating Homography
-);
+                            );
 
 /* @brief Remove wrong solutions (R&t pairs) of homography.
  *      Input 4 solutions; output 1 or 2 solutions.
@@ -76,8 +76,8 @@ double computeEpipolarConsError( // mean square error of a vector of points
 
 inline double calcErrorSquare(const cv::Point2f &p1, const cv::Point2f &p2)
 {
-    double dx = p1.x - p2.x, dy = p1.y - p2.y;
-    return dx * dx + dy * dy;
+  double dx = p1.x - p2.x, dy = p1.y - p2.y;
+  return dx * dx + dy * dy;
 }
 
 // -----------------------------------------------------
