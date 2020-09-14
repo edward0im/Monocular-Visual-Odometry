@@ -1,5 +1,5 @@
 
-#include "my_slam/basics/config.h"
+#include "basics/config.h"
 
 namespace my_slam
 {

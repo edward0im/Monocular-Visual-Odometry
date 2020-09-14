@@ -1,6 +1,6 @@
 
-#include "my_slam/display/pcl_display_lib.h"
-#include "my_slam/basics/eigen_funcs.h"
+#include "display/pcl_display_lib.h"
+#include "basics/eigen_funcs.h"
 
 namespace my_slam
 {

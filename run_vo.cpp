@@ -16,19 +16,19 @@
 #include <opencv2/features2d/features2d.hpp>
 
 // my
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
-#include "my_slam/vo/vo_io.h"
-#include "my_slam/basics/config.h"
-#include "my_slam/basics/yaml.h"
-#include "my_slam/basics/basics.h"
+#include "vo/vo_io.h"
+#include "basics/config.h"
+#include "basics/yaml.h"
+#include "basics/basics.h"
 
-#include "my_slam/geometry/motion_estimation.h"
-#include "my_slam/vo/frame.h"
-#include "my_slam/vo/vo.h"
+#include "geometry/motion_estimation.h"
+#include "vo/frame.h"
+#include "vo/vo.h"
 
 // display
-#include "my_slam/display/pcl_display.h"
+#include "display/pcl_display.h"
 
 using namespace my_slam;
 

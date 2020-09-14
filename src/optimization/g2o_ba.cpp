@@ -2,9 +2,9 @@
 https://github.com/gaoxiang12/slambook/blob/master/ch7/pose_estimation_3d2d.cpp
 */
 
-#include "my_slam/optimization/g2o_ba.h"
+#include "optimization/g2o_ba.h"
 
-#include "my_slam/basics/eigen_funcs.h"
+#include "basics/eigen_funcs.h"
 
 #include <g2o/core/base_vertex.h>
 #include <g2o/core/base_unary_edge.h>

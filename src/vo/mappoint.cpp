@@ -1,7 +1,7 @@
 
 
-#include "my_slam/common_include.h"
-#include "my_slam/vo/mappoint.h"
+#include "common_include.h"
+#include "vo/mappoint.h"
 
 namespace my_slam
 {

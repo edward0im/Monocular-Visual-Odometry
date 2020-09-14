@@ -4,12 +4,12 @@
 #ifndef MY_SLAM_MOTION_ESTIMATION_H
 #define MY_SLAM_MOTION_ESTIMATION_H
 
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
-#include "my_slam/geometry/camera.h"
-#include "my_slam/geometry/feature_match.h"
-#include "my_slam/geometry/epipolar_geometry.h"
-#include "my_slam/basics/opencv_funcs.h"
+#include "geometry/camera.h"
+#include "geometry/feature_match.h"
+#include "geometry/epipolar_geometry.h"
+#include "basics/opencv_funcs.h"
 
 namespace my_slam
 {

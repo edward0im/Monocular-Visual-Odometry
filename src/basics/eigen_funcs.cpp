@@ -1,6 +1,6 @@
-#include "my_slam/basics/eigen_funcs.h"
+#include "basics/eigen_funcs.h"
 
-#include "my_slam/basics/opencv_funcs.h"
+#include "basics/opencv_funcs.h"
 
 namespace my_slam
 {

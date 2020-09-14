@@ -1,5 +1,5 @@
 
-#include "my_slam/basics/opencv_funcs.h"
+#include "basics/opencv_funcs.h"
 
 namespace my_slam
 {

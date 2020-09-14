@@ -4,8 +4,8 @@
 #ifndef MY_SLAM_IO_H
 #define MY_SLAM_IO_H
 
-#include "my_slam/common_include.h"
-#include "my_slam/basics/yaml.h"
+#include "common_include.h"
+#include "basics/yaml.h"
 
 namespace my_slam
 {

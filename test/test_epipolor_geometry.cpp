@@ -10,10 +10,10 @@ bin/test_epipolor_geometry image0001.jpg image0002.jpg
 bin/test_epipolor_geometry image0001.jpg image0015.jpg
 */
 
-#include "my_slam/geometry/feature_match.h"
-#include "my_slam/geometry/epipolar_geometry.h"
-#include "my_slam/geometry/motion_estimation.h"
-#include "my_slam/basics/config.h"
+#include "geometry/feature_match.h"
+#include "geometry/epipolar_geometry.h"
+#include "geometry/motion_estimation.h"
+#include "basics/config.h"
 
 #include <iostream>
 #include <algorithm>

@@ -1,5 +1,5 @@
-#include "my_slam/vo/vo_io.h"
-#include "my_slam/basics/yaml.h"
+#include "vo/vo_io.h"
+#include "basics/yaml.h"
 
 #include <iostream>
 #include <boost/format.hpp> // for setting image filename

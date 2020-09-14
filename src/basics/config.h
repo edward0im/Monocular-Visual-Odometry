@@ -5,7 +5,7 @@
 #ifndef MY_SLAM_CONFIG_H
 #define MY_SLAM_CONFIG_H
 
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
 namespace my_slam
 {

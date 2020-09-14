@@ -4,7 +4,7 @@
 #ifndef MY_SLAM_EIGEN_FUNCS_H
 #define MY_SLAM_EIGEN_FUNCS_H
 
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
 #include <Eigen/Core>
 #include <Eigen/Geometry>

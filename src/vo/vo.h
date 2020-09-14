@@ -10,20 +10,20 @@
 
 // my
 
-#include "my_slam/basics/basics.h"
-#include "my_slam/vo/vo_io.h"
-#include "my_slam/basics/config.h"
-#include "my_slam/basics/opencv_funcs.h"
+#include "basics/basics.h"
+#include "vo/vo_io.h"
+#include "basics/config.h"
+#include "basics/opencv_funcs.h"
 
-#include "my_slam/geometry/camera.h"
-#include "my_slam/geometry/feature_match.h"
-#include "my_slam/geometry/motion_estimation.h"
+#include "geometry/camera.h"
+#include "geometry/feature_match.h"
+#include "geometry/motion_estimation.h"
 
-#include "my_slam/common_include.h"
-#include "my_slam/vo/frame.h"
-#include "my_slam/vo/map.h"
-#include "my_slam/vo/mappoint.h"
-#include "my_slam/vo/vo_commons.h"
+#include "common_include.h"
+#include "vo/frame.h"
+#include "vo/map.h"
+#include "vo/mappoint.h"
+#include "vo/vo_commons.h"
 
 namespace my_slam
 {

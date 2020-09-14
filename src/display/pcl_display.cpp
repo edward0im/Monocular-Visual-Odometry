@@ -1,6 +1,6 @@
 
-#include "my_slam/display/pcl_display.h"
-#include "my_slam/display/pcl_display_lib.h"
+#include "display/pcl_display.h"
+#include "display/pcl_display_lib.h"
 
 typedef boost::shared_ptr<pcl::visualization::PCLVisualizer> ViewerPtr;
 typedef pcl::PointCloud<pcl::PointXYZRGB>::Ptr CloudPtr;

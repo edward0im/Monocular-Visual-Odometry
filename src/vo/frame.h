@@ -3,10 +3,10 @@
 #ifndef MY_SLAM_FRAME_H
 #define MY_SLAM_FRAME_H
 
-#include "my_slam/common_include.h"
-#include "my_slam/basics/opencv_funcs.h"
-#include "my_slam/geometry/camera.h"
-#include "my_slam/geometry/feature_match.h"
+#include "common_include.h"
+#include "basics/opencv_funcs.h"
+#include "geometry/camera.h"
+#include "geometry/feature_match.h"
 
 namespace my_slam
 {

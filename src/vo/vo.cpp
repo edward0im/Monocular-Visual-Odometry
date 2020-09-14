@@ -1,6 +1,6 @@
 
-#include "my_slam/vo/vo.h"
-#include "my_slam/optimization/g2o_ba.h"
+#include "vo/vo.h"
+#include "optimization/g2o_ba.h"
 #include <numeric>
 
 namespace my_slam

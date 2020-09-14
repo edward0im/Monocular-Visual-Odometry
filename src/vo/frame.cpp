@@ -1,5 +1,5 @@
 
-#include "my_slam/vo/frame.h"
+#include "vo/frame.h"
 
 namespace my_slam
 {

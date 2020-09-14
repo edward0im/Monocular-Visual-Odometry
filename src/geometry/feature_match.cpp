@@ -1,7 +1,7 @@
 
-#include "my_slam/geometry/feature_match.h"
-#include "my_slam/basics/opencv_funcs.h"
-#include "my_slam/basics/config.h"
+#include "geometry/feature_match.h"
+#include "basics/opencv_funcs.h"
+#include "basics/config.h"
 
 namespace my_slam
 {

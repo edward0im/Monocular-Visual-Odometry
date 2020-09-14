@@ -8,10 +8,10 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
 
-#include "my_slam/geometry/feature_match.h"
-#include "my_slam/geometry/epipolar_geometry.h"
-#include "my_slam/geometry/motion_estimation.h"
-#include "my_slam/basics/config.h"
+#include "geometry/feature_match.h"
+#include "geometry/epipolar_geometry.h"
+#include "geometry/motion_estimation.h"
+#include "basics/config.h"
 
 using namespace std;
 using namespace cv;

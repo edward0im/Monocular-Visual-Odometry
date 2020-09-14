@@ -1,5 +1,5 @@
 
-#include "my_slam/geometry/camera.h"
+#include "geometry/camera.h"
 
 namespace my_slam
 {

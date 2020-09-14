@@ -2,9 +2,9 @@
 #ifndef MY_SLAM_MAP_H
 #define MY_SLAM_MAP_H
 
-#include "my_slam/common_include.h"
-#include "my_slam/vo/frame.h"
-#include "my_slam/vo/mappoint.h"
+#include "common_include.h"
+#include "vo/frame.h"
+#include "vo/mappoint.h"
 
 namespace my_slam
 {

@@ -1,5 +1,5 @@
 
-#include "my_slam/vo/vo_commons.h"
+#include "vo/vo_commons.h"
 
 namespace my_slam
 {

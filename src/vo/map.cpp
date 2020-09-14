@@ -1,5 +1,5 @@
 
-#include "my_slam/vo/map.h"
+#include "vo/map.h"
 
 namespace my_slam
 {

@@ -6,7 +6,7 @@ https://github.com/gaoxiang12/slambook/blob/master/ch7/pose_estimation_3d2d.cpp
 #ifndef MY_SLAM_G2O_BA_H
 #define MY_SLAM_G2O_BA_H
 
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
 namespace my_slam
 {

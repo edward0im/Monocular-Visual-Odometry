@@ -11,7 +11,7 @@
 // cv
 #include <opencv2/core/core.hpp>
 #include <opencv2/calib3d/calib3d.hpp>
-#include "my_slam/display/pcl_display.h"
+#include "display/pcl_display.h"
 
 using namespace std;
 using namespace cv;

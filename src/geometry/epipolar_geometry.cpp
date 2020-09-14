@@ -1,6 +1,6 @@
 
-#include "my_slam/geometry/epipolar_geometry.h"
-#include "my_slam/basics/config.h"
+#include "geometry/epipolar_geometry.h"
+#include "basics/config.h"
 
 
 #define PRINT_DEBUG_RESULT true

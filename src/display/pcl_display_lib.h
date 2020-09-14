@@ -6,8 +6,8 @@
 #ifndef MY_SLAM_PCL_DISPLAY_LIB_H
 #define MY_SLAM_PCL_DISPLAY_LIB_H
 
-#include "my_slam/common_include.h"
-#include "my_slam/basics/eigen_funcs.h"
+#include "common_include.h"
+#include "basics/eigen_funcs.h"
 
 #include <pcl/common/common_headers.h>
 #include <pcl/visualization/pcl_visualizer.h>

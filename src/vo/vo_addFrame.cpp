@@ -1,6 +1,6 @@
 // The member function `addFrame` of class VisualOdometry is defined here.
 
-#include "my_slam/vo/vo.h"
+#include "vo/vo.h"
 
 namespace my_slam
 {

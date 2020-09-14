@@ -2,10 +2,10 @@
 #ifndef MY_SLAM_EPIPOLAR_GEOMETRY_H
 #define MY_SLAM_EPIPOLAR_GEOMETRY_H
 
-#include "my_slam/common_include.h"
+#include "common_include.h"
 
-#include "my_slam/basics/opencv_funcs.h"
-#include "my_slam/geometry/camera.h" // transformations related to camera
+#include "basics/opencv_funcs.h"
+#include "geometry/camera.h" // transformations related to camera
 
 namespace my_slam
 {
