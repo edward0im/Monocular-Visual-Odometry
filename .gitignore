@@ -19,3 +19,5 @@ test_tmp/
 lib/
 build/
 bin/
+
+.ycm_extra_conf.py

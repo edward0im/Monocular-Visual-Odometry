@@ -24,7 +24,7 @@ set (CMAKE_CXX_FLAGS "-DPCL_ONLY_CORE_POINT_TYPES=ON -DNO_EXPLICIT_INSTANTIATION
 # Eigen
 include_directories( "/usr/include/eigen3" )
 # OpenCV
-find_package( OpenCV 3.4 REQUIRED )
+find_package( OpenCV 3.4 REQUIRED PATHS "$ENV{HOME}/gitrepo/opencv")
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 # Sophus 
 find_package( Sophus REQUIRED )
