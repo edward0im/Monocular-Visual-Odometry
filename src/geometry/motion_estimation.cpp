@@ -138,7 +138,8 @@ int helperEstimatePossibleRelativePosesByEpipolarGeometry(
   double ratio = score_H / (score_E + score_H);
   printf("Evaluate E/H score: E = %.1f, H = %.1f, H/(E+H)=%.3f\n", score_E, score_H, ratio);
   int best_sol = 0;
-  if (ratio > 0.5)
+  // \comment(edward): 0.5 is too low. It leads segfault. Set to 0.7.
+  if (ratio > 0.7)
   {
     best_sol = 1;
     double largest_norm_z = fabs(list_normal[1].at<double>(2, 0));

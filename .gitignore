@@ -19,5 +19,7 @@ test_tmp/
 lib/
 build/
 bin/
+debug/
+reldebug/
 
 .ycm_extra_conf.py
