@@ -72,7 +72,8 @@ void removeWrongRtOfHomography(
     inl_pts_on_np1.push_back(pts_on_np1[idx]);
     inl_pts_on_np2.push_back(pts_on_np2[idx]);
   }
-  filterHomographyDecompByVisibleRefpoints(Rs, normals, inl_pts_on_np1, inl_pts_on_np2, possibleSolutions);
+  // \comment(edward): comment out this code because it requires OpenCV 3.4 version.
+  // filterHomographyDecompByVisibleRefpoints(Rs, normals, inl_pts_on_np1, inl_pts_on_np2, possibleSolutions);
   for (int i = 0; i < possibleSolutions.rows; i++)
   {
     int idx = possibleSolutions.at<int>(i, 0);

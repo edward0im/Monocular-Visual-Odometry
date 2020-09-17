@@ -3,7 +3,7 @@ project ( myslam )
 
 # compile settings
 set( CMAKE_CXX_COMPILER "g++" )
-set( CMAKE_BUILD_TYPE "Debug" )
+set( CMAKE_BUILD_TYPE "Release" )
 # set( CMAKE_BUILD_TYPE "Release" ) # *** stack smashing detected ***: <unknown> terminated
 set( CMAKE_CXX_FLAGS "-std=c++11 -O3" )
 
@@ -24,7 +24,7 @@ set (CMAKE_CXX_FLAGS "-DPCL_ONLY_CORE_POINT_TYPES=ON -DNO_EXPLICIT_INSTANTIATION
 # Eigen
 include_directories( "/usr/include/eigen3" )
 # OpenCV
-find_package( OpenCV 3.4 REQUIRED PATHS "$ENV{HOME}/gitrepo/opencv")
+find_package( OpenCV 3.2 REQUIRED PATHS "$ENV{HOME}/gitrepo/opencv")
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 # Sophus 
 find_package( Sophus REQUIRED )
